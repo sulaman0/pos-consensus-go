@@ -2,12 +2,14 @@
 
 Simplified Proof-of-Stake (PoS) consensus algorithm using Golang. The algorithm
 should:
-● Accept multiple validator nodes.
-● Assign each node a stake.
-● Randomly select a leader based on stake amount and time.
-● Propose a block and get it validated by the other nodes.
-● Ensure the consensus is reached
-● Update the state of the chain by appending the block.
+
+* Accept multiple validator nodes.
+* Assign each node a stake.
+* Randomly select a leader based on stake amount and time.
+* Propose a block and get it validated by the other nodes.
+* Ensure the consensus is reached
+* Update the state of the chain by appending the block.
+
 
 You can use simple structures to represent blocks and validators. Ensure the code is modular
 and uses appropriate Go concurrency patterns.
